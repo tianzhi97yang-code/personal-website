@@ -13,7 +13,12 @@ export const TRANSLATIONS = {
       blog: "Blog / Thoughts",
     },
     blog: {
-      categories: "Categories",
+      categories: {
+        all: 'All',
+        research: 'Research',
+        essays: 'Essays',
+        trash: 'Trash Talk'
+      },
       readMore: "Read More",
       comments: "Visitor Messages",
       leaveComment: "Leave a Note",
@@ -51,7 +56,12 @@ export const TRANSLATIONS = {
       blog: "博客 / 随笔",
     },
     blog: {
-      categories: "分类",
+      categories: {
+        all: '全部',
+        research: '研究',
+        essays: '随笔',
+        trash: '垃圾话'
+      },
       readMore: "阅读全文",
       comments: "访客留言",
       leaveComment: "留个言吧",
